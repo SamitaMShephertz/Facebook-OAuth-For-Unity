@@ -32,7 +32,7 @@ public class FriendsLeaderBoardCallBack : App42CallBack {
 	
 	//private string result = "";
 	
-	AppController fbUserCon = new AppController ();
+//	AppController fbUserCon = new AppController ();
 	
 	//public static string fbAccessToken = "";
 	

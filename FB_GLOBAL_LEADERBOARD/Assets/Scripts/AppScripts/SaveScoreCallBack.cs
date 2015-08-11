@@ -33,7 +33,7 @@ public class SaveScoreCallBack : App42CallBack {
 	
 	
 	
-	AppController fbUserCon = new AppController ();
+//	AppController fbUserCon = new AppController ();
 	
 	public static string fbAccessToken = "";
 	

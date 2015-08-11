@@ -12,7 +12,7 @@ public class RunnerScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		float horizontal = Input.GetAxis("Horizontal");
+		//float horizontal = Input.GetAxis("Horizontal");
 		float vertical = Input.GetAxis("Vertical");
 		animator.SetFloat("Speed",vertical);
 	//	animator.SetFloat("Direction",horizontal);

@@ -9,7 +9,7 @@ using com.shephertz.app42.paas.sdk.csharp.storage;
 public class FBLeaderBoard : MonoBehaviour {
 
 	static ScoreBoardService scoreBoardService = null;
-	static SocialService socialService = null;
+	//static SocialService socialService = null;
 	public static bool  errorMessage   =false;
 	public static string exceptionMessage;
 	public GUISkin Myskin;
@@ -21,7 +21,7 @@ public class FBLeaderBoard : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		scoreBoardService = App42API.BuildScoreBoardService ();
-		socialService = App42API.BuildSocialService ();
+	//	socialService = App42API.BuildSocialService ();
 	}
 	
 	// Update is called once per frame
